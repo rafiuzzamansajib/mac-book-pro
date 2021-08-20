@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                                      <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Mac Book Pro</title>
 </head>
 <body>
+    <div class="d-flex p-2 mt-2">
+        <div class="m-5">
+            <img width="450px" src="./images/mac.png" alt="">
+        </div>
+        <div class="w-50">
+            <h2  class="w-75">Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+            <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/ USB 4 ports Magic Mouse Magic keyboard-Us English</p>
+            <h3 class="mt-4">Memory</h3>
+            <button id="default-memory"  class="btn btn-light">8Gb Unified Memory</button>
+            <button id="extra-memory"  class="btn btn-light">16Gb Unified Memory</button>
+            <h3  class="mt-4">Storage</h3>
+            <button id="default-ssd" class="btn btn-light">256Gb SSD storage</button>
+            <button id="extra-ssd" class="btn btn-light">512Gb SSD storage</button>
+            <button id="more-extra-ssd" class="btn btn-light">1Tb SSD storage</button>
+            <h3  class="mt-4">Chose Your devery option</h3>
+            <button id="delivery-free" class="btn btn-light">Friday,Aug 25 Free Prime Delivery</button>
+            <button id="delivery-charge" class="btn btn-light">Friday,Aug 21 Delivery charge $20</button>
+            <div class="cart-item mt-4">
+                <div class="row">
     
+                   <div class="col-md-8">
+                      <h5>Best Price</h5>
+                      <h5>Extra Memory Cost</h5>
+                      <h5>Extra Storage Cost</h5>
+                      <h5>Delivery Charge</h5>
+                   </div>
+    
+                   <div class="col-md-4 status">
+                      <h5>$<span id="mac-amount">1299</span></h5>
+                      <h5>$<span id="memory-amount">0</span></h5>
+                      <h5>$<span id="storage-amount">0</span></h5>
+                      <h5>$<span id="charge-amount">0</span></h5>
+                   </div>
+                   <hr>
+                   <div class="col-md-8">
+                       <h5>Total Price</h5>
+                   </div>
+                   <div class="col-md-4 status">
+                       <h5>$<span id="total-price">1299</span></h5>
+                   </div>
+                   <h5 class="mt-5">Add promo Code</h5>
+                   <input class="w-50" type="text">
+                   <button id="btn-apply" class="btn btn-danger w-25">Apply</button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <hr>
+    <h1 class="text-center">Total:$<span>1299</span></h1>
+            <!-- bootstrap js script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                      <!-- main js scrip linked file  -->
+    <script src="js/mac.js"></script>
 </body>
 </html>
