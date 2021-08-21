@@ -37,7 +37,7 @@ document.getElementById('delivery-charge').addEventListener('click',function(){
     document.getElementById('charge-amount').innerText = "20";
     calc();
 });
-           // Calculated Total Amount
+           //Function For Calculated Total Amount
 function calc(){
     const memoryAmount = document.getElementById('memory-amount').innerText;
     const storageAmount =  document.getElementById('storage-amount').innerText;
@@ -48,7 +48,7 @@ function calc(){
 };
 
 
-                // Using Cupon Fuction
+                // Fuction For Using Cupon Code
 const discounInput = document.getElementById('discount-input');
 
 function discoundPromocode(promoCode){
