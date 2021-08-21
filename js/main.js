@@ -59,7 +59,7 @@ function discoundPromocode(promoCode){
 
         }
         else{
-            alert('Discount Cupon NOt Exist')
+            alert('Discount Cupon Not Exist')
         }
         discounInput.value = '';
     })
